@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lpeburvr#4ic54+bmtc3nt&x+8a)2w-9st^(+rl)$(#o+kg%r-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["nlp-be.azurewebsites.net"]
 
 
 # Application definition
