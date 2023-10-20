@@ -1,4 +1,4 @@
-wheel=0.41.2
+wheel==0.41.2
 Django==4.2.6
 chatterbot==1.1.0a7
 chatterbot_corpus==1.2.0
