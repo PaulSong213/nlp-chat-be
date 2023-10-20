@@ -1,5 +1,4 @@
-Django==3.2.8
-chatterbot==1.0.5
+Django==4.2.6
+chatterbot==1.1.0a7
 chatterbot_corpus==1.2.0
-djangorestframework==3.12.4
-wheel>=0.32.0,<0.33.0
+djangorestframework==3.14.0
