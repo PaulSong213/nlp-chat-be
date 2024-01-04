@@ -65,5 +65,5 @@ jobs:
 
       - name: Run Django server
         run: |
-          cd $HOME/site/wwwroot
-          python manage.py runserver 0.0.0.0:$PORT
+          find . -name "manage.py" -exec sh -c 'cd $(dirname {}); python manage.py runserver 0.0.0.0:$PORT' \;
+
