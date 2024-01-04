@@ -54,8 +54,6 @@ CORS_ALLOW_HEADERS = (
 
 ALLOWED_HOSTS = [
     "nlp-backend-chat.azurewebsites.net"
-    "nlp-be.azurewebsites.net",
-    "nlp-chat.netlify.app",
     "127.0.0.1"
 ]
 
