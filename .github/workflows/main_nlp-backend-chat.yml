@@ -62,8 +62,3 @@ jobs:
           app-name: 'nlp-backend-chat'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E6BAC75EC874C6D9FFAA935074FD310 }}
-
-      - name: Run Django server
-        run: |
-          cd wwwroot
-          python manage.py runserver
